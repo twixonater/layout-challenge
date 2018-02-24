@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	padding: 3%;
+	height: 100%;
+}
+/* HEADER*/
+header {
+	width: 100%;
+}
+
+.logo {
+	width: 30%;
+	height: 100px;
+	float:left;
+	margin-right: 6%;
+}
+
+nav {
+	display: inline-block;
+	height: 50px;
+	width: 15%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.clearfix::after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear:both;
+}
+
+/*box styles*/
+.box {
+  	background-color: grey;
+  	border: solid black 1px;
+  	margin-bottom: 3%;
+}
+
+.spacing {
+	margin-right: 3%;
+}
+
+
+
+/* MAIN SECTION*/
+aside {
+	width: 23.5%;
+	float: left;
+	margin-right:3%;
+	box-sizing: border-box;
+	height: 750px;
+}
+
+.main-section {
+	width: 73.5%;
+	float: left;
+}
+
+
+/* Section 1 - Banner*/
+.sectionone {
+	height: 200px;
+	width: 100%;
+	float: right;
+}
+
+
+/* Section 2 - content with side box*/
+.sectiontwo {
+	height: 300px;
+}
+
+.mainstuff {
+	width: 74.25%;
+	float: left;
+}
+
+.sidesec {
+	width: 22.75%;
+	float: right;
+}
+
+
+/* Section 3 - 4 column section*/
+
+.fourcolumn {
+	height: 200px;
+	float: left;
+	width: 22.75%;
+}
+
+
+/*footer*/
+footer {
+	width: 100%;
+	height: 200px;
+}
