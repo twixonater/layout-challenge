@@ -1,0 +1,50 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	padding: 3%;
+}
+
+header {
+	width: 100%;
+}
+
+.box {
+  background-color: grey;
+  border: solid black 1px;
+  height: 300px;
+  margin-bottom: 3%;
+}
+
+
+.half-column {
+	float: left;
+	width: 48.5%;
+}
+
+.spacing {
+	margin-right: 3%;
+}
+
+.thirdcolumn {
+	height: 300px;
+	float: left;
+	width: 31.3%;
+}
+
+.clearfix::after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear:both;
+}
+
+
+footer {
+	width: 100%;
+}

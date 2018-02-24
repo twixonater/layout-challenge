@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: grey;
+  border: solid black 1px;
+}
+
+header,
+footer {
+	height: 100px;
+	width: 100%;
+}
+
+header {
+	margin-bottom: 3%;
+}
+
+aside {
+	width: 25%;
+	height: 400px;
+	float: right;
+}
+
+section {
+	width: 72%;
+	height: 400px;
+	float: left;
+	margin-bottom: 3%;
+	margin-right: 3%;
+}
+
+footer{
+	clear: both;
+}
